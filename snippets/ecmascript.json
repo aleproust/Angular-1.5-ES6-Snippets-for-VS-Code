@@ -1,0 +1,79 @@
+{
+    "Angular Controller": {
+        "prefix": "lbjControllerES6",
+        "body": [
+            "export class ${Controller}Controller {",
+            "",
+            "  constructor(){",
+            "    'ngInject'",
+            "  }",
+            "",
+            "  $onInit(){",
+            "",
+            "  }",
+            "",
+            "  $onChanges(changes){",
+            "",
+            "  }",
+            "}",
+            "export default ${Controller}Controller"
+        ],
+        "description": "Angular 1.5 Controller"
+    },
+    "Angular Service": {
+        "prefix": "lbjServiceES6",
+        "body": [
+            "export class ${Service}Service {",
+            "  constructor(){",
+            "    'ngInject'",
+            "  }",
+            "}"
+        ],
+        "description": "Angular 1.5 service"
+    },
+    "Angular Test": {
+        "prefix": "lbjTestAngularES6",
+        "body": [
+            "'use strict'",
+            "describe('${TestName} - ', () => {",
+            "  beforeEach(angular.mock.module('interstellar'))",
+            "  let _${VarName}",
+            "  beforeEach(inject(${VarName} => {",
+            "    _${VarName} = ${VarName}",
+            "  }))",
+            "  describe('The test', () => {",
+            "",
+            "  })",
+            "})"
+        ],
+        "description": "Angular 1.5 test"
+    },
+    "Angular Component": {
+        "prefix": "lbjComponentES6",
+        "body": [
+            "import { ${Component}Controller } from './${component-kebab}.controller'",
+            "",
+            "export let ${Component}Component = {",
+            "  restrict: 'E',",
+            "  bindings: {",
+            "    oneWayBinding: '<',",
+            "    onFunction: '&',",
+            "    string: '@'",
+            "  },",
+            "  templateUrl: 'app/commons/components/${component-kebab}/${component-kebab}.html',",
+            "  controller: ${Component}Controller",
+            "}"
+        ],
+        "description": "LbJ Angular Interstellar Component"
+    },
+    "Angular Filter": {
+        "prefix": "lbjFilterES6",
+        "body": [
+            "export let ${FilterName} = function() {",
+            "  return function(){",
+            "  }",
+            "}" 
+        ],
+        "description": "Angular 1.5 filter"
+    }
+}
