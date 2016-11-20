@@ -26,3 +26,5 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to a
 3. Reload Visual Studio Code
 4. To create for example a controller, create a new JS file, press `Ctrl`+`Space` and start to type `lbjControllerES6`
 
+## Contributor
+https://github.com/cbazureau
