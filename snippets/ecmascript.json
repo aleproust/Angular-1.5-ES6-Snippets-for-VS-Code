@@ -64,7 +64,7 @@
             "  controller: ${Component}Controller",
             "}"
         ],
-        "description": "LbJ Angular Interstellar Component"
+        "description": "Angular  1.5 Component"
     },
     "Angular Filter": {
         "prefix": "lbjFilterES6",
